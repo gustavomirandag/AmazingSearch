@@ -61,6 +61,15 @@ namespace DataAccess.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to http://elasticsearch:9200.
+        /// </summary>
+        internal static string ElasticDockerComposeUrl {
+            get {
+                return ResourceManager.GetString("ElasticDockerComposeUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to http://127.0.0.1:9200.
         /// </summary>
         internal static string ElasticsearchUrl {

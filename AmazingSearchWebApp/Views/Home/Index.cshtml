@@ -1,0 +1,42 @@
+﻿@using DomainModel.Entities
+@model IEnumerable<WebPage>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Amazing Search</h2>
+        <form action="~/home/search" method="post">
+            <input type="text" id="searchInput" name="searchInput" />
+            <input type="submit" id="btnSearch" />
+        </form>
+    </div>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Content)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <a href="@item.Url">@item.Title</a>
+                    </td>
+                    <td>
+                        @item.Content
+                    </td>
+                </tr>
+            }
+
+        </table>
+    }
+</div>

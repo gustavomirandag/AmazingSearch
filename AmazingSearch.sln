@@ -11,15 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{15E98511-5E28-4348-8424-9248410BD46A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{38D3B732-E874-4C18-8072-0BBFA4E44BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{38D3B732-E874-4C18-8072-0BBFA4E44BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{6D092838-763D-47FE-9E5F-44A79FD38AB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModel", "DomainModel\DomainModel.csproj", "{6D092838-763D-47FE-9E5F-44A79FD38AB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainService", "DomainService\DomainService.csproj", "{86F77FDB-CEDF-40F6-8CC2-FF6DE7D948EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainService", "DomainService\DomainService.csproj", "{86F77FDB-CEDF-40F6-8CC2-FF6DE7D948EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageSeeder", "WebPageSeeder\WebPageSeeder.csproj", "{BFEF27C9-5A64-4B59-B123-6136A6E6D32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPageSeeder", "WebPageSeeder\WebPageSeeder.csproj", "{BFEF27C9-5A64-4B59-B123-6136A6E6D32E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPageSearcher", "WebPageSearcher\WebPageSearcher.csproj", "{23A30B7E-874B-422C-9AAF-840C549CECA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPageSearcher", "WebPageSearcher\WebPageSearcher.csproj", "{23A30B7E-874B-422C-9AAF-840C549CECA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazingSearchWebApp", "AmazingSearchWebApp\AmazingSearchWebApp.csproj", "{720B201B-FA0C-48D9-B004-B289781FE60E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{23A30B7E-874B-422C-9AAF-840C549CECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A30B7E-874B-422C-9AAF-840C549CECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A30B7E-874B-422C-9AAF-840C549CECA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720B201B-FA0C-48D9-B004-B289781FE60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720B201B-FA0C-48D9-B004-B289781FE60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720B201B-FA0C-48D9-B004-B289781FE60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720B201B-FA0C-48D9-B004-B289781FE60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{86F77FDB-CEDF-40F6-8CC2-FF6DE7D948EA} = {D6BFFAD2-0E0D-4A14-80D4-407BD3BC45AF}
 		{BFEF27C9-5A64-4B59-B123-6136A6E6D32E} = {5BAD924E-034C-4C1D-9DE4-53E355EA8C1B}
 		{23A30B7E-874B-422C-9AAF-840C549CECA4} = {5BAD924E-034C-4C1D-9DE4-53E355EA8C1B}
+		{720B201B-FA0C-48D9-B004-B289781FE60E} = {5BAD924E-034C-4C1D-9DE4-53E355EA8C1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E85A4A25-CD2A-4C68-8C54-8EA94A0D7518}
