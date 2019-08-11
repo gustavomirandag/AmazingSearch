@@ -47,7 +47,7 @@ The Elasticsearch will be filled with some pages.
 
 
 ### 5 - Use Kibana to explore Elasticsearch data. ###
-After a search, the "user_activity_log_index" will be created in Elasticsearch filled with user activities.
+After a search, the "user_activity_log_index" will be created in Elasticsearch.
 You can explore the index of Web Pages and the User Activity index.
 
 
